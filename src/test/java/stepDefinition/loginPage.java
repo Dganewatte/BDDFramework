@@ -18,7 +18,7 @@ public class loginPage {
     }
 
     @Then("I close the browser")
-    public void closeTheBrowser(){
+    public void closeTheBrowser() throws Exception {
         loginPageTest.tearDown();
     }
 }
